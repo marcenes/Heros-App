@@ -1,0 +1,23 @@
+{
+    "normalUser": {
+        "username": "test@test.com",
+        "password": "test123"
+    },
+
+    "adminUser": {
+        "userName": "admin@test.com",
+        "password": "test123"
+    },
+
+    "loginFail": {
+        "username": "test@test.com",
+        "password": "test111"
+    },
+
+    "createHero": {
+        "name": "Jorge Alex ",
+        "price": "20",
+        "fans": "20",
+        "saves": "20"
+    }
+}
