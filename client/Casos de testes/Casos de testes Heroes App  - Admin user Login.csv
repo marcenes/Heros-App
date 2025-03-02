@@ -1,0 +1,22 @@
+CENÁRIOS,CASO DE TESTE,BDD,RESULTADO ESPERADO,RESULTADO ENCONTRADO,STATUS
+001 - Login Success,CT_001 - Login Success,"Dado que o usuário acessou a página principal 
+Quando ele clicar em Login
+E inserir as credencial válidas
+Então deverá ser logado com sucesso",Usuário deverá ser logado com sucesso ao inserir suas credencias válidas,Após clicar em login e inserir as credenciais válidas o usuário é logado com sucesso,PASSOU 
+002 - Login Fail,CT_002 - Login Fail,"Dado que o usuário acessou a página principal
+Quando ele clicar em Login
+E inserir as credenciais inválidas
+Então recebe um alerta de credenciais inválidas",Usuário deverá receber um alerta de credenciais inválidas,Ao tentar logaar com as credenciais inválidas o usuário recebe alerta de credenciais inválidas,PASSOU
+003 - Clicking Edit Hero,CT_003 - Clicking Edit Hero,"Dado que o usuário esteja logado com uma conta de admin válida
+Quando clicar no botão de editar hero
+Então deverá ser direcinado para página de edição de herói","Quando clicar no notão de editar hero, deverá ser direcionado para pagina onde poderá fazer a edição das informaçõe do hero","Quando clicado no botão edit hero, somos direcionados para página de edição de hero",PASSOU
+004 - Editing a Hero,CT_004 - Editing a Hero,"Dado que o usuário esteja logado como admin e esteja na página de edição de hero
+Quando ele fizer a edição das informações desejadas
+E apertando o botão de submit
+Então as informações serao alteradas e ele direcionado para página principal de heros",Quando feita a edição as infomações devem ser mostradas na página inicial dos heros,"Quando feita as alterações, as novasi nformações foram mostradas na página inicia dos heros.",PASSOU
+005 - Create a new Hero,CT_005 - Create a new Hero,"Dado que o usuário esteja logado em uma conta de administrador
+Quando ele clicar no botão CREATE A NEW HERO
+Então ele deverá ser direcionado para página de criação de hero",Quando clicarn o botao de criar um novo hero deverá ser direcionado para página de criação de hero,Quando clicado no botão de Create New Hero somos direcionados para página de criação de hero,PASSOU
+006 - DELETE A HERO,CT_006 - Delete a Hero,"Dado que o usuário seja um administrador logado  em uma conta válida
+Quando clicar na opção de deletar um hero
+Então devera ser possível fazer a exclusão de um hero","Quando clicar em deletar o heró, ele devera ser excluído e sumir da página inicial dos heros","Quando clicado em deletar hero, o hero é deletado e remvoido da pagina principal de heros ",PASSOU

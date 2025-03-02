@@ -1,0 +1,16 @@
+CENÁRIOS,CASO DE TESTE,BDD,RESULTADO ESPERADO,RESULTADO ENCONTRADO,STATUS
+001 - Login Success,CT_001 - Login Success,"Dado que o usuário acessou a página principal 
+Quando ele clicar em Login
+E inserir as credencial válidas
+Então deverá ser logado com sucesso",Usuário deverá ser logado com sucesso ao inserir suas credencias válidas,Após clicar em login e inserir as credenciais válidas o usuário é logado com sucesso,PASSOU 
+002 - Login Fail,CT_002 - Login Fail,"Dado que o usuário acessou a página principal
+Quando ele clicar em Login
+E inserir as credenciais inválidas
+Então recebe um alerta de credenciais inválidas",Usuário deverá receber um alerta de credenciais inválidas,Ao tentar logaar com as credenciais inválidas o usuário recebe alerta de credenciais inválidas,PASSOU
+003 - Clicking Like,CT_003 - Click Like,"Dado que o usuário está logado em uma conta válida
+Quando ele clicar em Like no hero
+Então o número de fans deverá subir",Assim queo usuário clicar em LIKE em um hero o número de fans é alterado,"Quando clicado em like em um hero, o número de fans é alterado",PASSOU
+003 - Clicking Hire,CT_003 Click Hire,"Dado que o usuário está logado em uma conta válida
+Quando ele clicar em hire no hero
+E e confirmar apertando em Yes
+Então o número de Saves deverá ser alterado",Assim que o usuário clicar em hire em um hero o número de saves é alterado,"Quando clicado em Hire em um hero, o número de Saves é alterado",PASSOU

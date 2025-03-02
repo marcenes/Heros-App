@@ -1,0 +1,7 @@
+CENÁRIOS,CASO DE TESTE,BDD,RESULTADO ESPERADO,RESULTADO ENCONTRADO,STATUS
+001-CLICK NO LIKE,CT_001 - CLICK NO LIKE,"Dado que o usuário acesse a página principal sem fazer login
+Quando clicar no de like do hero
+Então deverá um alerta que precisa fazer login para essa ação ","Recebe a mensagem ""You must log in to like""","Sem estar logado em uma conta, quando clicamos no botão LIKE, recebemos a mensagem ""You must log in to like.""",PASSOU 
+002- Click EM CONTRATAR,CT_002 - CLICK EM CONTRATAR,"Dado que o usuário acesse a página principal sem fazer login
+Quando clicar no botão de contratar hero
+Então recebe um alerta que precisa fazer login para essa ação ","Recebe a mensagem ""You must log in to hire this hero""","Sem estar logado em uma conta, quando clicamos no botão LIKE, recebemos a mensagem ""You must log in to hire this hero.""",PASSOU
